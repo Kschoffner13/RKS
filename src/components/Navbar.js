@@ -22,13 +22,16 @@ export default Navbar;
 
 function CustomLink({ to, children, ...props }) {
   const resolvedPath = useResolvedPath(to);
-  const isActive = useMatch({ path: to, end: true });
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
   console.log(resolvedPath.pathname);
   console.log("isactive: ", isActive);
 
+  if (isActive) {
+    console.log("Active link: ", resolvedPath.pathname);
+  }
   return (
-    <li className={isActive ? "active" : ""}>
-      <Link to={to} {...props}>
+    <li>
+      <Link to={to} className={isActive ? "active" : ""} {...props}>
         {children}
       </Link>
     </li>

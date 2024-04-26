@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import React from "react";
 import Navbar from "./components/Navbar";
 import "./Styles/styles.css";
