@@ -22,8 +22,9 @@ body {
 
 .navbar {
   background-image: url("../Images/background2.jpg");
-  background-size: cover;
+  background-size: 100% 200%;
   background-position: center;
+
   color: black;
   display: flex;
   justify-content: space-between;
