@@ -12,7 +12,6 @@ body {
   background-image: url("../Images/background2.jpg");
   background-size: cover;
   background-position: center;
-  background-color: bisque;
   color: black;
   display: flex;
   justify-content: space-between;
