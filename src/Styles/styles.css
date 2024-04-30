@@ -81,3 +81,19 @@ body {
   width: 7rem;
   gap: 1rem;
 }
+
+/* home */
+
+.Welcome {
+  display: flex;
+  flex-direction: column;
+  background-color: #af2323;
+  background-image: url("../Images/background.png");
+  background-position: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  color: white;
+}
