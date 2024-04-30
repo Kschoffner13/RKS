@@ -6,16 +6,8 @@ function Home() {
       <div className="Welcome">
         <h1>Welcome</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          pulvinar nunc sit amet tortor aliquam, ac ullamcorper neque
-          ullamcorper. Proin nec turpis sit amet nisl tincidunt tincidunt. Donec
-          nec ultricies sapien. Nulla facilisi. Sed ut odio et nisi fermentum
-          aliquam. Nam nec turpis nec nunc ultricies congue. Aliquam erat
-          volutpat. In hac habitasse platea dictumst. Sed ultricies, mi et
-          vestibulum tincidunt, nunc lectus ultricies libero, nec fermentum
-          purus nisl nec nunc. Nulla facilisi. Sed ultricies, mi et vestibulum
-          tincidunt, nunc lectus ultricies libero, nec fermentum purus nisl nec
-          nunc.
+          welcome to rks calgary, we are a small business that specializes in
+          telecommuncations consulting.
         </p>
       </div>
       <div className="intro"></div>
