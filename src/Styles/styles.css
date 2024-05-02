@@ -115,7 +115,7 @@ body {
   background-position: center;
   padding-top: 1rem;
   margin-top: 1rem;
-  width: 60%;
+
   font-size: larger;
   font-style: bold;
   margin-left: auto;
@@ -125,38 +125,37 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 1rem;
 }
 
 .Services h1 {
-  margin-left: 2rem;
+  margin-left: 0rem;
 }
 
 .services_content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  align-items: center;
 }
 
 .services_content ul {
+  list-style: none;
   display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* space the items evenly */
+  align-items: center;
+  width: 100%; /* take up the full width of the parent */
+  padding: 0; /* remove padding */
+  margin: 0; /* remove margin */
 }
 
 .services_content li {
-  width: 10rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 1rem;
+  width: 17rem;
+  margin: 1rem;
 }
 .icon {
   font-size: 3rem;

@@ -47,8 +47,6 @@ function Home() {
                 <h3>Project management</h3>
               </div>
             </li>
-          </ul>
-          <ul>
             <li>
               <div>
                 <TbWorld className="icon" />
