@@ -26,7 +26,6 @@ function Home() {
         </div>
       </div>
       <div className="Services">
-        <h1>Services</h1>
         <div className="services_content">
           <ul>
             <li>
