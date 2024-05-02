@@ -84,16 +84,45 @@ body {
 
 /* home */
 
-.Welcome {
+.landing {
   display: flex;
   flex-direction: column;
-  background-color: #af2323;
-  background-image: url("../Images/background.png");
+  height: 50vh;
+  background-image: url("../Images/telecommunications.jpg");
   background-position: center;
+  justify-content: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
+}
 
-  color: white;
+.L_content {
+  width: 50%;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.RKS_home {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.W_content h2 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+.W_content p {
+  margin-top: 2rem;
+  margin-bottom: 0; /* adjust as needed */
 }
