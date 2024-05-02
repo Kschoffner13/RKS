@@ -16,10 +16,11 @@ body {
 /* Navbar */
 
 .navbar {
-  background-image: url("../Images/background2.jpg");
+  /* background-image: url("../Images/background2.jpg");
   background-size: 100% 200%;
-  background-position: center;
-
+  background-position: center; */
+  background-color: #333;
+  height: 5rem;
   color: black;
   display: flex;
   justify-content: space-between;
@@ -29,6 +30,7 @@ body {
 }
 
 .navbar-logo {
+  margin-top: 5rem;
   display: flex;
   height: auto;
   width: 10rem;
@@ -109,7 +111,7 @@ body {
   padding-right: 1rem;
   padding-left: 1rem;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: -1.5rem;
   font-size: 4rem;
   font-weight: bold;
 }
